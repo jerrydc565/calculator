@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/css/calculator.css" />
+    <script src="/js/index.js" defer></script>
+  </head>
+  <body>
+    <section>
+      <div class="upper-part">
+        <p class="calculate" id="calculate"></p>
+        <p class="result" id="result"></p>
+      </div>
+      <div class="lower-part">
+        <button class="up-button" onclick="clearScreen()">C</button
+        ><button class="up-button">+/-</button
+        ><button class="up-button">%</button
+        ><button class="sign-button" onclick="calculating('/')">
+          <img
+            src="/img/pngwing.com (11).png"
+            alt="the Division symbol"
+            width="15px"
+          /></button
+        ><button onclick="calculating('7')">7</button><button onclick="calculating('8')">8</button
+        ><button onclick="calculating('9')">9</button
+        ><button class="sign-button" onclick="calculating('*')">X</button
+        ><button onclick="calculating('4')">4</button
+        ><button onclick="calculating('5')">5</button
+        ><button onclick="calculating('6')">6</button
+        ><button class="sign-button" onclick="calculating('-')">-</button
+        ><button onclick="calculating('1')">1</button
+        ><button onclick="calculating('2')">2</button
+        ><button onclick="calculating('3')">3</button
+        ><button class="sign-button" onclick="calculating('+')">+</button
+        ><button class="button0" onclick="calculating('0')">0</button
+        ><button onclick="calculating('.')">.</button
+        ><button class="sign-button" onclick="calculateResult()">=</button>
+      </div>
+    </section>
+  </body>
+</html>
