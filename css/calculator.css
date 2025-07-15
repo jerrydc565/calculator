@@ -6,16 +6,17 @@
   font-family: sans-serif;
 }
 body {
-  width: 30%;
-  margin-inline: auto;
-  padding: 30px;
+  width: 100%;
+  padding: 10px;
   background-color: rgb(211, 166, 166);
 }
 section {
   background-color: rgb(23, 9, 9);
   padding: 20px;
   border-radius: 30px;
+  margin-inline: auto;
   box-shadow: 5px 5px 50px;
+  width:30%;
 }
 .upper-part {
   height: 35vh;
@@ -51,4 +52,10 @@ button {
 }
 .up-button{
   background-color: rgb(118, 118, 118);
+}
+
+@media screen and (max-width:480px) {
+  section{
+    width:100%;
+  }
 }
